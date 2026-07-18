@@ -1,0 +1,47 @@
+# ===========================
+# Node.js / Express Backend
+# ===========================
+
+# Dependencies
+node_modules/
+
+# Environment variables (NEVER commit secrets)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Uploaded files (runtime generated, not source code)
+uploads/
+
+# Build output (not applicable here, but safe to keep)
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor settings
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Package manager lock files (keep package-lock.json, ignore yarn.lock if not used)
+yarn.lock
