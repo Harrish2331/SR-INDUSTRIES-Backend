@@ -70,6 +70,8 @@ const ALLOWED_ORIGINS_EXACT = [
   'http://localhost:3000',
   'http://localhost:5173',
   'http://localhost:4173',
+  'https://sr-industries.vercel.app', // Production domain
+  'https://sr-industries-djsq.vercel.app' // Specific preview/deploy URL from your screenshot
 ].filter(Boolean)
 
 // Add CLIENT_URL from environment (the deployed Vercel frontend URL)
